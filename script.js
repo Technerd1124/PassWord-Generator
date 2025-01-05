@@ -34,7 +34,7 @@ document.getElementById("generateBtn").addEventListener("click", () => {
     const password = generatePassword(length, includeLower, includeUpper, includeNumber, includeSymbols);
 
     if (!password) {
-        errorMessage.textContent = "Select at least one character type.";
+        errorMessage.textContent = " Include  at least one character type.";
         result.textContent = "";
         return;
     }
